@@ -11,6 +11,7 @@
 		3DB7CFC82DF3F2CA004131BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7CFC72DF3F2CA004131BD /* ContentView.swift */; };
 		3DB7CFCA2DF3F2CC004131BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB7CFC92DF3F2CC004131BD /* Assets.xcassets */; };
 		3DB7CFCD2DF3F2CC004131BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB7CFCC2DF3F2CC004131BD /* Preview Assets.xcassets */; };
+		3DB7CFD42DF3F36E004131BD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7CFD32DF3F36E004131BD /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3DB7CFC72DF3F2CA004131BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DB7CFC92DF3F2CC004131BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DB7CFCC2DF3F2CC004131BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DB7CFD32DF3F36E004131BD /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				3DB7CFC72DF3F2CA004131BD /* ContentView.swift */,
 				3DB7CFC92DF3F2CC004131BD /* Assets.xcassets */,
 				3DB7CFCB2DF3F2CC004131BD /* Preview Content */,
+				3DB7CFD32DF3F36E004131BD /* ImagePicker.swift */,
 			);
 			path = ImagesSUI;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB7CFD42DF3F36E004131BD /* ImagePicker.swift in Sources */,
 				3DB7CFC82DF3F2CA004131BD /* ContentView.swift in Sources */,
 				3DB7CFC62DF3F2CA004131BD /* ImagesSUIApp.swift in Sources */,
 			);
@@ -285,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.janzelaznog.ddadm13.ImagesSUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janzelaznog.ddadm13.Images;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.janzelaznog.ddadm13.ImagesSUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janzelaznog.ddadm13.Images;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
